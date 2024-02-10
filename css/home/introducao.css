@@ -45,6 +45,7 @@
   color: var(--c5);
   line-height: 1.5;
   font-family: Roboto;
+  text-transform: none;
 }
 .ponto {
   color: var(--p1);
@@ -101,4 +102,7 @@
     font-size: 16px;
     line-height: 1.33;
   }
+}
+.tecnologia-conteudo p {
+  text-transform: none;
 }

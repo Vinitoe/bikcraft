@@ -32,6 +32,7 @@
 .footer-direitos {
   grid-column: 1/-1;
   padding-top: 80px;
+  text-transform: none;
 }
 @media (max-width: 800px) {
   .footer .logo {

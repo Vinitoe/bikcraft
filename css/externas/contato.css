@@ -20,6 +20,9 @@
   padding-bottom: 40px;
   color: var(--c0);
 }
+.contato-inf p {
+  text-transform: none;
+}
 .contato-endereco,
 .contato-email,
 .contato-numero {
@@ -139,6 +142,7 @@ form textarea:focus {
   display: flex;
   grid-template-columns: 1fr 1fr;
   flex-wrap: wrap;
+  
 }
 .locais-ruas p {
   border-left: 2px solid var(--c2);
@@ -150,6 +154,7 @@ form textarea:focus {
   font-family: Roboto;
   color: var(--c8);
   margin-bottom: 32px;
+  text-transform: none;
 }
 .locais-cidades h2::before {
   content: "";
