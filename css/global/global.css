@@ -16,6 +16,28 @@ img {
 }
 h1,
 p,
-ul {
+ul,
+h2,
+h3,
+h4,
+span,
+p,
+blockquote,
+dd,
+dt {
   margin: 0px;
+  padding: 0px;
+  gap: 0px;
+  border: 0px;
+}
+
+[src$=".jpg"] {
+  border-radius: 4px;
+}
+
+li {
+  list-style: none;
+}
+address {
+  font-style: normal;
 }

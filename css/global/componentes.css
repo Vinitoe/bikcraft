@@ -1,7 +1,7 @@
 .botao {
   display: inline-block;
   padding: 16px 32px;
-  background: linear-gradient(#ffbf00, #f2a50c);
+  background: linear-gradient(var(--p1), var(--p2));
   border-radius: 4px;
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
   color: #332200;
@@ -9,5 +9,80 @@
   font-size: 18px;
   line-height: 1.33;
   font-family: Poppins;
+  max-width: max-content;
+  border: none;
+  cursor: pointer;
 }
 
+.container {
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.botao-secundario {
+  display: inline-block;
+  padding: 16px 32px;
+  background-color: var(--c10);
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+  color: var(--c4);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  font-family: Poppins;
+  max-width: max-content;
+}
+.botao-secundario:hover {
+  background-color: var(--c11);
+}
+
+/* Titulo */
+.titulo-bg {
+  background: var(--c11) url('../../img/dec/top-right.svg') no-repeat top 40px right 500px;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+.titulo p {
+  margin-bottom: 4px;
+}
+@media (max-width: 800px) {
+  .titulo-bg {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .titulo p {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .titulo h1 {
+    font-size: 2.5rem;
+  }
+}
+.col-2 {
+  grid-column: span 2;
+}
+.col-1 {
+  grid-column: 1;
+}
+.form {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: Roboto;
+  background-color: var(--c1);
+  border: 1px solid var(--c2);
+  border-radius: 4px;
+  padding: 12px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.form-display {
+  padding: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}

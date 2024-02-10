@@ -1,0 +1,72 @@
+.font-1-xxl {
+  font-size: 64px;
+  line-height: 1.125;
+  font-weight: 600;
+  font-family: Poppins, sans-serif;
+}
+.font-1-xl {
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 600;
+  font-family: Poppins;
+}
+.font-1-l {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 400;
+  font-family: Poppins;
+}
+.font-2-l {
+  font-size: 24px;
+  line-height: 36px;
+  font-family: Roboto;
+  font-weight: 400;
+}
+.font-2-l-b {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 500;
+  font-family: Roboto;
+}
+.font-1-m {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: Poppins;
+}
+.font-1-m-b {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+  font-family: Poppins;
+}
+.font-2-m {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  font-family: Roboto;
+}
+.font-1-s {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: Poppins;
+}
+.font-2-s {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: Roboto;
+}
+.font-2-xs {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  font-family: Roboto;
+}
+.font-1-xs {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600;
+  font-family: Poppins;
+}

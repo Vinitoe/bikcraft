@@ -1,0 +1,179 @@
+/* Contato */
+.contato-bg {
+  background-color: var(--c11);
+  padding-bottom: 60px;
+  box-shadow: inset 0 -360px var(--c2);
+}
+.contato {
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+  padding-bottom: 60px;
+}
+.contato-inf {
+  background: var(--c12) url('../../img/dec/bottom-left.svg') no-repeat bottom 20px left 20px;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 60px;
+  padding-top: 60px;
+  border-radius: 4px 0px 0px 4px;
+}
+.contato-inf h3 {
+  padding-bottom: 40px;
+  color: var(--c0);
+}
+.contato-endereco,
+.contato-email,
+.contato-numero {
+  display: flex;
+  padding-bottom: 32px;
+  gap: 8px;
+  line-height: 1.4rem;
+  align-items: flex-start;
+}
+.contato-numero {
+  padding-bottom: 60px;
+}
+.contato-redes {
+  display: flex;
+  gap: 32px;
+  padding-left: 28px;
+  padding-bottom: 132px;
+}
+/* Contato FIM */
+/* Formulario */
+
+.formulario label {
+  display: block;
+}
+
+
+.formm {
+  background-color: var(--c0);
+  padding: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  border-radius: 0px 4px 4px 0px;
+}
+form label {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Poppins;
+}
+form .label-nome {
+  grid-column: 1;
+  max-width: 100%;
+}
+form .label-tel {
+  grid-column: 2;
+}
+form .label-email {
+  grid-column: span 2;
+}
+form .label-msg {
+  grid-column: span 2;
+}
+form textarea {
+  resize: none;
+}
+form .botao {
+  grid-column: span 2;
+}
+form input[type="text"],
+form input[type="tel"],
+form input[type="email"],
+form textarea {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: Roboto;
+  background-color: var(--c1);
+  border: 1px solid var(--c2);
+  border-radius: 4px;
+  padding: 12px;
+  width: 100%;
+  box-sizing: border-box;
+}
+form input[type="text"]:focus,
+form input[type="tel"]:focus,
+form input[type="email"]:focus,
+form textarea:focus {
+  outline: none;
+  border-color: var(--p1);
+  box-shadow: 0px 0px 1px 2px var(--p2);
+}
+@media (max-width: 800px) {
+  .contato {
+    grid-template-columns: 1fr;
+  }
+}
+/* Formulario FIM */
+/* Lojas Locais */
+.locais-bg {
+  background-color: var(--c1);
+}
+.locais-bg h1 {
+  padding-bottom: 60px;
+}
+.locais-bg h2 {
+  padding-bottom: 32px;
+  position: relative;
+}
+.locais {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding-bottom: 60px;
+}
+.locais-cidades {
+  background-color: var(--c0);
+}
+.locais img {
+  border-radius: 0px;
+}
+.locais-endereco {
+  padding: 32px 60px 32px 60px;
+  border-radius: 0px 0px 5px 5px;
+  box-shadow: 0px 0px 10px 1px var(--c2);
+}
+.locais-ruas {
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  flex-wrap: wrap;
+}
+.locais-ruas p {
+  border-left: 2px solid var(--c2);
+  padding-left: 8px;
+  padding-right: 40px;
+  line-height: 2.5rem;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Roboto;
+  color: var(--c8);
+  margin-bottom: 32px;
+}
+.locais-cidades h2::before {
+  content: "";
+  width: 12px;
+  height: 8px;
+  background-color: var(--p1);
+  position: absolute;
+  left: -20px;
+  top: 16px;
+}
+.locais-cidades h3 {
+  position: relative;
+}
+.locais-cidades h3::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: url("../../img/icones/horario.svg");
+  position: absolute;
+  left: -25px;
+  top: 1px;
+}
+@media (max-width: 800px) {
+  .locais {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,44 @@
+:root {
+  --c0: #ffffff;
+  --c1: #f7f7f7;
+  --c2: #ededed;
+  --c3: #dedede;
+  --c4: #cccccc;
+  --c5: #b2b2b2;
+  --c6: #9c9c9c;
+  --c7: #717171;
+  --c8: #595959;
+  --c9: #404040;
+  --c10: #2e2e2e;
+  --c11: #111111;
+  --c12: #000000;
+  --p1: #ffbb00;
+  --p2: #e4a30b;
+  --p3: #a66f00;
+  --p4: #664400;
+  --p5: #332200;
+}
+.p1 {
+  color: #e4a30b;
+}
+.c5 {
+  color: var(--c5);
+}
+.c0 {
+  color: var(--c0);
+}
+.p4 {
+  color: var(--p4);
+}
+.p5 {
+  color: var(--p5);
+}
+.c6 {
+  color: var(--c6);
+}
+.c8 {
+  color: var(--c8);
+}
+.c11 {
+  color: var(--c11);
+}
