@@ -29,4 +29,6 @@
 /* Contato */
 @import "./externas/contato.css";
 /* Orçamento */
-@import "./externas/orcamentos.css"
+@import "./externas/orcamentos.css";
+/* Animações */
+@import "./global/animacao.css"
